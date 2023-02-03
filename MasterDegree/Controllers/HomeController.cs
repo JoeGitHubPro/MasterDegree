@@ -8,17 +8,6 @@ using System.Web.Mvc;
 
 namespace MasterDegree.Controllers
 {
-    //public class HomeController : Controller
-    //{
-    //    public ActionResult Index()
-    //    {
-    //        ViewBag.Title = "Home Page";
-
-    //        return View();
-    //    }
-    //}
-
-
     public class HomeController : Controller
     {
 
@@ -44,10 +33,9 @@ namespace MasterDegree.Controllers
 
                         String ConStr = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
                         SqlConnectionStringBuilder Builder = new SqlConnectionStringBuilder(ConStr);
+
                         String DatabaseName = Builder.InitialCatalog;
-
                         String ServerDB = Builder.DataSource;
-
                         String PasswordDB = Builder.Password;
                         String UserNameDB = Builder.UserID;
 

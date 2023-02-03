@@ -14,14 +14,23 @@ using MasterDegree.UserDefined;
 
 namespace MasterDegree.Controllers.API
 {
+    /// <summary>
+    /// DepartmentsController That control all transaction of Department which add , delete , Edit , Get
+    /// </summary>
     [RoutePrefix("api")]
     [Authorize(Roles = RoleName.Admin)]
     public class DepartmentsController : ApiController
     {
         private MasterDegreeEntities1 db = new MasterDegreeEntities1();
 
-        // GET: api/Departments
+        // GET: api/AllDepartments
+        /// <summary>
+        /// Get All Departments
+        /// </summary>
+        /// <returns>All Departments Info</returns>
+        [HttpGet]
         [Route("AllDepartments")]
+        [ResponseType(typeof(IHttpActionResult))]
         public IHttpActionResult GetDepartments()
         {
             var DepartmentQuery = db.Departments.Select(a => new
@@ -35,9 +44,16 @@ namespace MasterDegree.Controllers.API
             return Ok(DepartmentQuery);
         }
 
-        // GET: api/Departments/5
+        // GET: api/SingleDepartment
+        /// <summary>
+        /// Get Department by DepartmentCode
+        /// </summary>
+        /// <param name="model">DepartmentCode Only Required in this model</param>
+        /// <returns>All Info of this Department</returns>
+        [HttpGet]
         [Route("SingleDepartment")]
         [ResponseType(typeof(Department))]
+        
         public IHttpActionResult GetDepartment(DepartmentBindingModels model)
         {
             var DepartmentQuery = db.Departments.Where(q => q.DepartmentCode == model.DepartmentCode).Select(a => new

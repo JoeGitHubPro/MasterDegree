@@ -6,7 +6,7 @@ using System.Web;
 
 namespace MasterDegree.Models
 {
-    public class DepartmentBindingModels
+    public class DepartmentBindingModels 
     {
         [Display(Name = "DepartmentCode")]
         public string DepartmentCode { get; set; }
