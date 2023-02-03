@@ -15,7 +15,7 @@ using MasterDegree.UserDefined;
 namespace MasterDegree.Controllers.API
 {
     /// <summary>
-    /// DepartmentsController That control all transaction of Department which add , delete , Edit , Get
+    /// DepartmentsController That control all transaction of Department which add , delete , Edit , Get New
     /// </summary>
     [RoutePrefix("api")]
     [Authorize(Roles = RoleName.Admin)]
