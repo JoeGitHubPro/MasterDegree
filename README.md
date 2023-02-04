@@ -24,6 +24,11 @@
 - .Net Framework 
 - SQL Server
 
+## Deploy DataBase
+
+```sh
+Run SQL file at this location [https://github.com/JoeGitHubPro/MasterDegree/blob/master/MasterDegreeDBSQLQuery.sql] on database server
+```
 
 ## Deploy
 
@@ -37,11 +42,7 @@ Go to  Web.config file , then change connectionStrings
 do those steps twice for "DefaultConnection" and "MasterDegreeEntities1"
 ```
 
-## Usage
 
-```sh
-npm run start
-```
 
 ## Run tests
 
