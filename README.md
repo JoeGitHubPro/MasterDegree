@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to MasterDegree 👋</h1>
+# Welcome to MasterDegree 👋
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/SQL%20Server-2019-yellow" />
