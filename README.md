@@ -31,17 +31,10 @@
 Go to  Web.config file , then change connectionStrings 
 1- put database server name in "Data Source" 
 2- put database name in "Initial Catalog"
-3- put server site username in "username"
+3- put server site username in "User Id"
 4- put server site password in "password"
 
 do those steps twice for "DefaultConnection" and "MasterDegreeEntities1"
-
-------------------------------------------------------------------------
-
-<connectionStrings>
-	  <add name="DefaultConnection" connectionString="Data Source=DESKTOP-T4OMHBE\SQLEXPRESS;Initial Catalog=MasterDegree;User Id=sa;Password=123456789" providerName="System.Data.SqlClient" />
-    <add name="MasterDegreeEntities1" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-T4OMHBE\SQLEXPRESS;initial catalog=MasterDegree;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
-</connectionStrings>
 ```
 
 ## Usage
