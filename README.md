@@ -17,6 +17,19 @@
 > Master Degree regestration system 
 
 ### 🏠 [Homepage](https://github.com/JoeGitHubPro/MasterDegree)
+## Documentation
+
+<div>
+	
+Click button to get Decomntation sheet or vist home page after deploy
+	
+[<kbd> <br> Decomntation <br> </kbd>][KBD]
+
+
+
+</div>
+
+[KBD]: [Types/KBD.md](https://github.com/JoeGitHubPro/MasterDegree/blob/master/MasterDegreeAPIDecomntation.xlsx)
 
 ## Prerequisites
 
