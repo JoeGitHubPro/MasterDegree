@@ -87,5 +87,5 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2023 [Youssef Mohamed Ali Mohamed](https://github.com/JoeGitHubPro).<br />
-This project is [ASP.Net](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+This project is Proprietary licensed.
 
