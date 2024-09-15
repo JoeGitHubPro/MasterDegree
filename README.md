@@ -72,9 +72,9 @@ do those steps twice for "DefaultConnection" and "MasterDegreeEntities1"
 👤 **Youssef Mohamed Ali Mohamed**
 
 * Website: https://joegithubpro.github.io/Profile/
-* Twitter: [@https:\/\/twitter.com\/Y\_mohamed\_Ali?t=uW04TUW-iDrdq0u9GFRm9g&s=09](https://twitter.com/https:\/\/twitter.com\/Y\_mohamed\_Ali?t=uW04TUW-iDrdq0u9GFRm9g&s=09)
+* Twitter: [Y\_mohamed\_Ali](https://x.com/Y_mohamed_Ali)
 * Github: [@JoeGitHubPro](https://github.com/JoeGitHubPro)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/youssef-mohamed-71a368217](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/youssef-mohamed-71a368217)
+* LinkedIn: [youssef-mohamed-ali](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/youssef-mohamed-ali)
 
 ## 🤝 Contributing
 
